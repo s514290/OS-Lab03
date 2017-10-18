@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2017.2.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\CCondray_Lab03.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\CCondray_Lab03.dir/objects.a @CMakeFiles\CCondray_Lab03.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\CCondray_Lab03.dir/objects.a -Wl,--no-whole-archive  -o CCondray_Lab03.exe -Wl,--out-implib,libCCondray_Lab03.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CCondray_Lab03.dir\linklibs.rsp
